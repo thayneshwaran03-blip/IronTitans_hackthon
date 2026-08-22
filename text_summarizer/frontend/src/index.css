@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fb;
+    margin: 0;
+    padding: 40px 20px;
+    color: #1a1a2e;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 24px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-btn {
+    background: none;
+    border: none;
+    color: #4a3aff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.file-btn {
+    background: #eef1fa;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.mode-toggle label {
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+.algo-select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.algo-select select {
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #4a3aff;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a2ce0;
+}
+
+button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+}
+
+.slider-row {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.slider-row input[type="range"] {
+    width: 100%;
+    margin-top: 6px;
+}
+
+#status {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #555;
+    min-height: 20px;
+}
+
+.output-box {
+    margin-top: 24px;
+    background: #f9f9ff;
+    border: 1px solid #e0e0f0;
+    border-radius: 8px;
+    padding: 18px 22px;
+}
+
+.output-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.output-header button {
+    padding: 6px 12px;
+    font-size: 13px;
+    background: #eef1fa;
+    color: #1a1a2e;
+}
+
+.stats {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #777;
+}
+
+.engine-tag {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #4a3aff;
+    font-weight: 600;
+}
+
+.keywords-details {
+    margin-top: 14px;
+    font-size: 14px;
+}
+
+.keywords-list {
+    margin: 10px 0;
+}
+
+.keyword-chip {
+    display: inline-block;
+    background: #eef1fa;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+.highlighted-text {
+    line-height: 1.6;
+    font-size: 14px;
+    color: #444;
+}
+
+.highlighted-text mark {
+    background: #ffe680;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+.stats-bar {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: #f4f6ff;
+    padding: 16px 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 140px;
+}
+
+.stat-card strong {
+    display: block;
+    font-size: 22px;
+    color: #4a3aff;
+}
+
+.stat-card span {
+    font-size: 12px;
+    color: #777;
+}
+
+.history-item {
+    background: #fafbff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+}
+
+.history-meta {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.tag {
+    background: #eef1fa;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    margin-left: auto;
+    background: #ffe6e6;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #c0392b;
+}
+
+.history-summary {
+    font-size: 14px;
+    margin: 6px 0;
+}
+
+.history-stats {
+    font-size: 12px;
+    color: #999;
+}
